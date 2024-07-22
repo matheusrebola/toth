@@ -1,4 +1,4 @@
-package br.org.gestao.toth.entities;
+package toth.entities;
 
 import java.util.UUID;
 

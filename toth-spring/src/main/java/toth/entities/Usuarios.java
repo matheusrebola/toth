@@ -1,4 +1,4 @@
-package br.org.gestao.toth.entities;
+package toth.entities;
 
 import java.time.LocalDate;
 import java.util.UUID;
