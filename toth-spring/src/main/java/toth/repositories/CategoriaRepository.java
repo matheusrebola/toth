@@ -1,13 +1,13 @@
-package toth.repositorys;
+package toth.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import toth.entities.Produtos;
+import toth.entities.Categorias;
 
 @Repository
-public interface ProdutoRepository extends JpaRepository<Produtos, UUID> {
+public interface CategoriaRepository extends JpaRepository<Categorias, UUID> {
 
 }

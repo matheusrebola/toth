@@ -1,13 +1,13 @@
-package toth.repositorys;
+package toth.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import toth.entities.Pedidos;
+import toth.entities.Reviews;
 
 @Repository
-public interface PedidoRepository extends JpaRepository<Pedidos, UUID> {
+public interface ReviewRepository extends JpaRepository<Reviews, UUID>{
 
 }
