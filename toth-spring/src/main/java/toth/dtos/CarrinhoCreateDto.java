@@ -1,5 +1,10 @@
 package toth.dtos;
 
-public record CarrinhoCreateDto() {
+import java.time.LocalDateTime;
+
+public record CarrinhoCreateDto(
+		Integer quantidade,
+		LocalDateTime dataAdicao,
+		Boolean ativo) {
 
 }

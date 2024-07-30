@@ -1,5 +1,10 @@
 package toth.dtos;
 
-public record LogSegurancaCreateDto() {
+import java.time.LocalDateTime;
+
+public record LogSegurancaCreateDto(
+		String acao,
+		LocalDateTime data,
+		String descricao) {
 
 }
