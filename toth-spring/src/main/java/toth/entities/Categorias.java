@@ -14,7 +14,7 @@ public record Categorias(
 		String nome,
 		String descricao,
 		LocalDateTime dataCriacao,
-		boolean ativo) 
+		Boolean ativo) 
 {
 
 }

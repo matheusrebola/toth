@@ -16,7 +16,7 @@ public record Enderecos(
 		String cep,
 		String pais,
 		Usuarios usuario,
-		boolean ativo) 
+		Boolean ativo) 
 {
 
 }

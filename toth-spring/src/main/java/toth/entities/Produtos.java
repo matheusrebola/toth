@@ -20,7 +20,7 @@ public record Produtos(
 		LocalDateTime dataAtualizacao,
 		String imagemUrl,
 		Categorias categoria,
-		boolean ativo) 
+		Boolean ativo) 
 {
 
 }

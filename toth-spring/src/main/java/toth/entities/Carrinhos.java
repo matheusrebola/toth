@@ -13,7 +13,7 @@ public record Carrinhos(
 		@Id @GeneratedValue(strategy = GenerationType.UUID) UUID id,
 		Integer quantidade,
 		LocalDateTime dataAdicao,
-		boolean ativo) 
+		Boolean ativo) 
 {
 
 }
